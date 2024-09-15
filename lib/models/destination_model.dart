@@ -1,3 +1,5 @@
+import 'facilities_model.dart';
+
 List<String> categories = ["Popular", "Nearby", "Hotel", "Mountain"];
 
 class Member {
@@ -20,20 +22,19 @@ class Destination {
   final String? name, description, image, category, location;
   final double? rate;
   final List<String>? members;
-  // final List<Facilities>? facilities;
+  final List<Facilities>? facilities;
 
-  Destination({
-    this.id,
-    this.price = 111,
-    this.name,
-    this.description,
-    this.image,
-    this.category,
-    this.location,
-    this.rate,
-    this.members,
-    // this.facilities
-  });
+  Destination(
+      {this.id,
+      this.price = 111,
+      this.name,
+      this.description,
+      this.image,
+      this.category,
+      this.location,
+      this.rate,
+      this.members,
+      this.facilities});
 }
 
 List<Destination> destinations = [
@@ -56,7 +57,7 @@ List<Destination> destinations = [
         "Choose from a curated selection of tourism photos. Always free on Unsplash.",
     location: "Luton,London",
     rate: 4.6,
-    // facilities: []
+    facilities: [facilities[0], facilities[1], facilities[2], facilities[3]],
   ),
   Destination(
     id: 2,
@@ -77,7 +78,7 @@ List<Destination> destinations = [
         "Choose from a curated selection of tourism photos. Always free on Unsplash.",
     location: "Luton,London",
     rate: 4.6,
-    // facilities: []
+    facilities: [facilities[0], facilities[1], facilities[2], facilities[3]],
   ),
   Destination(
     id: 3,
@@ -98,7 +99,7 @@ List<Destination> destinations = [
         "Choose from a curated selection of tourism photos. Always free on Unsplash.",
     location: "Luton,London",
     rate: 4.6,
-    // facilities: []
+    facilities: [facilities[0], facilities[1], facilities[2], facilities[3]],
   ),
   Destination(
     id: 4,
@@ -119,7 +120,7 @@ List<Destination> destinations = [
         "Choose from a curated selection of tourism photos. Always free on Unsplash.",
     location: "Luton,London",
     rate: 4.6,
-    // facilities: []
+    facilities: [facilities[0], facilities[1], facilities[2], facilities[3]],
   ),
   // Destination(
   //   id: 5,

@@ -2,6 +2,16 @@
 class Assets {
   Assets._();
 
+  static const String facilitiesBed = 'images/facilities/bed.png';
+  static const String facilitiesFood = 'images/facilities/food.png';
+  static const String facilitiesHammock = 'images/facilities/hammock.png';
+  static const String facilitiesMusic = 'images/facilities/music.png';
+  static const String facilitiesSleepingBag =
+      'images/facilities/sleeping-bag.png';
+  static const String facilitiesTShirt = 'images/facilities/t-shirt.png';
+  static const String facilitiesTent = 'images/facilities/tent.png';
+  static const String facilitiesTub = 'images/facilities/tub.png';
+  static const String facilitiesWifi = 'images/facilities/wifi.png';
   static const String membersMember1 = 'images/members/member1.jpg';
   static const String membersMember2 = 'images/members/member2.jpg';
   static const String membersMember3 = 'images/members/member3.jpg';
